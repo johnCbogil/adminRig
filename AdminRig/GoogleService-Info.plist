@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRACKING_ID</key>
+	<string>UA-77256508-1</string>
+	<key>CLIENT_ID</key>
+	<string>1073657114728-1j9119r6f6v5as0rr4tdfjjvk5s9lc9v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1073657114728-1j9119r6f6v5as0rr4tdfjjvk5s9lc9v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBi4ysVHXLwACb3bIJYMc4747-JuFMHSAI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1073657114728</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.johnbogil.voices</string>
+	<key>PROJECT_ID</key>
+	<string>voices-430ae</string>
+	<key>STORAGE_BUCKET</key>
+	<string>voices-430ae.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<false/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1073657114728:ios:4cd690a7b995db5d</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>DATABASE_URL</key>
+	<string>https://voices-430ae.firebaseio.com</string>
+</dict>
+</plist>

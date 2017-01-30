@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		0B15E2CCF05E4DC9A8BAF2ED /* libPods-AdminRig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C60B6AF9811E6296123B23 /* libPods-AdminRig.a */; };
 		23CF1B8EAB889F8DC8B015CE /* libPods-AdminRigUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 942AEDEDB6F69047C11688FE /* libPods-AdminRigUITests.a */; };
+		529517371E3EB73C00DF7570 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 529517351E3EB73C00DF7570 /* GoogleService-Info.plist */; };
+		529517381E3EB73C00DF7570 /* voices-430ae-firebase-crashreporting-7icx7-8fe490a20c.json in Resources */ = {isa = PBXBuildFile; fileRef = 529517361E3EB73C00DF7570 /* voices-430ae-firebase-crashreporting-7icx7-8fe490a20c.json */; };
 		52D2DCB11E3EB2D300ADECC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2DCB01E3EB2D300ADECC8 /* main.m */; };
 		52D2DCB41E3EB2D300ADECC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2DCB31E3EB2D300ADECC8 /* AppDelegate.m */; };
-		52D2DCB71E3EB2D300ADECC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2DCB61E3EB2D300ADECC8 /* ViewController.m */; };
+		52D2DCB71E3EB2D300ADECC8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2DCB61E3EB2D300ADECC8 /* RootViewController.m */; };
 		52D2DCBA1E3EB2D300ADECC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D2DCB81E3EB2D300ADECC8 /* Main.storyboard */; };
 		52D2DCBC1E3EB2D300ADECC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D2DCBB1E3EB2D300ADECC8 /* Assets.xcassets */; };
 		52D2DCBF1E3EB2D300ADECC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D2DCBD1E3EB2D300ADECC8 /* LaunchScreen.storyboard */; };
@@ -41,12 +43,14 @@
 		3F7B6A517527E182937B558E /* Pods-AdminRigUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminRigUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminRigUITests/Pods-AdminRigUITests.release.xcconfig"; sourceTree = "<group>"; };
 		460BF5619B507EBA9995D0D9 /* Pods-AdminRigTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminRigTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdminRigTests/Pods-AdminRigTests.debug.xcconfig"; sourceTree = "<group>"; };
 		512856F2DAC6AA0136AC8332 /* libPods-AdminRigTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdminRigTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		529517351E3EB73C00DF7570 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		529517361E3EB73C00DF7570 /* voices-430ae-firebase-crashreporting-7icx7-8fe490a20c.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "voices-430ae-firebase-crashreporting-7icx7-8fe490a20c.json"; sourceTree = "<group>"; };
 		52D2DCAC1E3EB2D300ADECC8 /* AdminRig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdminRig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D2DCB01E3EB2D300ADECC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52D2DCB21E3EB2D300ADECC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52D2DCB31E3EB2D300ADECC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		52D2DCB51E3EB2D300ADECC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52D2DCB61E3EB2D300ADECC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52D2DCB51E3EB2D300ADECC8 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		52D2DCB61E3EB2D300ADECC8 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		52D2DCB91E3EB2D300ADECC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52D2DCBB1E3EB2D300ADECC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D2DCBE1E3EB2D300ADECC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -133,8 +137,8 @@
 			children = (
 				52D2DCB21E3EB2D300ADECC8 /* AppDelegate.h */,
 				52D2DCB31E3EB2D300ADECC8 /* AppDelegate.m */,
-				52D2DCB51E3EB2D300ADECC8 /* ViewController.h */,
-				52D2DCB61E3EB2D300ADECC8 /* ViewController.m */,
+				52D2DCB51E3EB2D300ADECC8 /* RootViewController.h */,
+				52D2DCB61E3EB2D300ADECC8 /* RootViewController.m */,
 				52D2DCB81E3EB2D300ADECC8 /* Main.storyboard */,
 				52D2DCBB1E3EB2D300ADECC8 /* Assets.xcassets */,
 				52D2DCBD1E3EB2D300ADECC8 /* LaunchScreen.storyboard */,
@@ -147,6 +151,8 @@
 		52D2DCAF1E3EB2D300ADECC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				529517351E3EB73C00DF7570 /* GoogleService-Info.plist */,
+				529517361E3EB73C00DF7570 /* voices-430ae-firebase-crashreporting-7icx7-8fe490a20c.json */,
 				52D2DCB01E3EB2D300ADECC8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -297,6 +303,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D2DCBF1E3EB2D300ADECC8 /* LaunchScreen.storyboard in Resources */,
+				529517371E3EB73C00DF7570 /* GoogleService-Info.plist in Resources */,
+				529517381E3EB73C00DF7570 /* voices-430ae-firebase-crashreporting-7icx7-8fe490a20c.json in Resources */,
 				52D2DCBC1E3EB2D300ADECC8 /* Assets.xcassets in Resources */,
 				52D2DCBA1E3EB2D300ADECC8 /* Main.storyboard in Resources */,
 			);
@@ -331,7 +339,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		3F52431D26730DCFA018F741 /* [CP] Check Pods Manifest.lock */ = {
@@ -346,7 +354,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		44D7B7E6C35307E301FB1818 /* [CP] Check Pods Manifest.lock */ = {
@@ -361,7 +369,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4A3A8DDF703022F1651D08F3 /* [CP] Embed Pods Frameworks */ = {
@@ -461,7 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D2DCB71E3EB2D300ADECC8 /* ViewController.m in Sources */,
+				52D2DCB71E3EB2D300ADECC8 /* RootViewController.m in Sources */,
 				52D2DCB41E3EB2D300ADECC8 /* AppDelegate.m in Sources */,
 				52D2DCB11E3EB2D300ADECC8 /* main.m in Sources */,
 			);
@@ -616,7 +624,7 @@
 				DEVELOPMENT_TEAM = 4Y3GGL46D2;
 				INFOPLIST_FILE = AdminRig/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = john.bogil.AdminRig;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnbogil.voices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -629,7 +637,7 @@
 				DEVELOPMENT_TEAM = 4Y3GGL46D2;
 				INFOPLIST_FILE = AdminRig/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = john.bogil.AdminRig;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnbogil.voices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  AdminRig
 //
 //  Created by John Bogil on 1/29/17.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 
 
 @end
