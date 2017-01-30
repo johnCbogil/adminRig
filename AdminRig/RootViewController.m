@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "CreateActionViewController.h"
 @import FirebaseDatabase;
 @import Firebase;
 
@@ -82,7 +83,7 @@
 #pragma mark - UITableViewDelegate Methods
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -90,6 +91,9 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     if (indexPath.row == 0) {
         cell.textLabel.text = @"Fetch Group Counts";
+    }
+    else if (indexPath.row == 1) {
+        cell.textLabel.text = @"Create Action";
     }
     return cell;
 }
@@ -101,6 +105,15 @@
     if (indexPath.row == 0) {
         [self fetchFollowCountForAllGroups];
         [self fetchTotalUserCount];
+    }
+    else if (indexPath.row == 1) {
+        
+        // push create action vc
+        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        CreateActionViewController *controller = [storyboard instantiateViewControllerWithIdentifier:@"CreateActionViewController"];
+        
+        [self.navigationController pushViewController:controller animated:YES];
+
     }
 }
 

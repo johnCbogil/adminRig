@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B15E2CCF05E4DC9A8BAF2ED /* libPods-AdminRig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C60B6AF9811E6296123B23 /* libPods-AdminRig.a */; };
 		23CF1B8EAB889F8DC8B015CE /* libPods-AdminRigUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 942AEDEDB6F69047C11688FE /* libPods-AdminRigUITests.a */; };
+		525CBF251E3ECAD80026A130 /* CreateActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525CBF241E3ECAD80026A130 /* CreateActionViewController.m */; };
 		529517371E3EB73C00DF7570 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 529517351E3EB73C00DF7570 /* GoogleService-Info.plist */; };
 		529517381E3EB73C00DF7570 /* voices-430ae-firebase-crashreporting-7icx7-8fe490a20c.json in Resources */ = {isa = PBXBuildFile; fileRef = 529517361E3EB73C00DF7570 /* voices-430ae-firebase-crashreporting-7icx7-8fe490a20c.json */; };
 		52D2DCB11E3EB2D300ADECC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2DCB01E3EB2D300ADECC8 /* main.m */; };
@@ -43,6 +44,8 @@
 		3F7B6A517527E182937B558E /* Pods-AdminRigUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminRigUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdminRigUITests/Pods-AdminRigUITests.release.xcconfig"; sourceTree = "<group>"; };
 		460BF5619B507EBA9995D0D9 /* Pods-AdminRigTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminRigTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdminRigTests/Pods-AdminRigTests.debug.xcconfig"; sourceTree = "<group>"; };
 		512856F2DAC6AA0136AC8332 /* libPods-AdminRigTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdminRigTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525CBF231E3ECAD80026A130 /* CreateActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateActionViewController.h; sourceTree = "<group>"; };
+		525CBF241E3ECAD80026A130 /* CreateActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateActionViewController.m; sourceTree = "<group>"; };
 		529517351E3EB73C00DF7570 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		529517361E3EB73C00DF7570 /* voices-430ae-firebase-crashreporting-7icx7-8fe490a20c.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "voices-430ae-firebase-crashreporting-7icx7-8fe490a20c.json"; sourceTree = "<group>"; };
 		52D2DCAC1E3EB2D300ADECC8 /* AdminRig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdminRig.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +143,8 @@
 				52D2DCB51E3EB2D300ADECC8 /* RootViewController.h */,
 				52D2DCB61E3EB2D300ADECC8 /* RootViewController.m */,
 				52D2DCB81E3EB2D300ADECC8 /* Main.storyboard */,
+				525CBF231E3ECAD80026A130 /* CreateActionViewController.h */,
+				525CBF241E3ECAD80026A130 /* CreateActionViewController.m */,
 				52D2DCBB1E3EB2D300ADECC8 /* Assets.xcassets */,
 				52D2DCBD1E3EB2D300ADECC8 /* LaunchScreen.storyboard */,
 				52D2DCC01E3EB2D300ADECC8 /* Info.plist */,
@@ -469,6 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525CBF251E3ECAD80026A130 /* CreateActionViewController.m in Sources */,
 				52D2DCB71E3EB2D300ADECC8 /* RootViewController.m in Sources */,
 				52D2DCB41E3EB2D300ADECC8 /* AppDelegate.m in Sources */,
 				52D2DCB11E3EB2D300ADECC8 /* main.m in Sources */,
